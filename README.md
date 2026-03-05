@@ -45,7 +45,7 @@ This lab demonstrates Git operations including SSH key setup, repository initial
 
 - **Revert Commits (Bonus)**
   - Revert last 3 commits without committing immediately: `git revert --no-commit HEAD HEAD~1 HEAD~2`
-  - Commit the revert: `git commit -m " Revert last 3 commits"`
+  - Commit the revert: `git commit -m " revert the last 3 commits"`
 
 - **Push Final Changes**
   - Push all changes to GitHub: `git push -u origin main`
