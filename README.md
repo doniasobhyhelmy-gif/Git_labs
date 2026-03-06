@@ -41,7 +41,7 @@ This lab demonstrates Git operations including SSH key setup, repository initial
 
 - **Final Commits**
   - Append lab completion note: `echo "lab is done" >> myname.txt` → `git add .` → `git commit -m "lab done"`
-  - Amend last commit: `echo "finish" >> myname.txt` → `git add .` → `git commit -m ---amend "finish"`
+  - Amend last commit: `echo "finish" >> myname.txt` → `git add .` → `git commit -m --amend "finish"`
 
 - **Revert Commits (Bonus)**
   - Revert last 3 commits without committing immediately: `git revert --no-commit HEAD HEAD~1 HEAD~2`
